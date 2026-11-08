@@ -4,7 +4,7 @@
 
 Le FLSM (*Fixed-Length Subnet Mask*) est une technique de subnetting IPv4 qui divise un réseau en sous-réseaux de **même taille**. Tous les sous-réseaux utilisent donc le même masque et offrent le même nombre d'adresses.
 
-<p align="center"><img src="images/flsm-subnetting.png" alt="Découpage FLSM d'un /24 en quatre sous-réseaux /26" width="100%"></p>
+[![Découpage FLSM d’un /24 en quatre sous-réseaux /26](images/flsm-subnetting.png)](images/flsm-subnetting.png)
 
 Le FLSM est adapté lorsque les segments réseau ont des besoins comparables. Il est simple à documenter et à administrer, mais peut gaspiller des adresses si les besoins sont très différents.
 
